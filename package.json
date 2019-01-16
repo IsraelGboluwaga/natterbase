@@ -1,0 +1,22 @@
+{
+  "name": "natterbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Israel Arunah <arunahisraelg2010@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "debug": "^3.1.0",
+    "dotenv": "*",
+    "express": "^4.16.3",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "nodemon": "^1.17.4"
+  }
+}
